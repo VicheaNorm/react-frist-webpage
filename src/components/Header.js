@@ -5,6 +5,7 @@ import saiText from '../img/sai.png'
 import facebookIcon from '../img/icon/facebook.svg'
 import instagramIcon from '../img/icon/instagram.svg'
 import youTubeIcon from '../img/icon/youtube.svg'
+import ArrowDown from '../img/icon/Arrowdown.svg'
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
       <div className="mb-4 h-full flex justify-center items-center flex-col">
         <img src={profile} alt="Profile" className="rounded-full max-w-sm"></img>
         
-        <img src={saiText} alt="Profile" className="w-25 -mb-8"></img>
+        <img src={saiText} alt="Profile" className="-mb-8"></img>
 
         <h5 className="font-light text-white mb-6">Cambodian Artist</h5>
         
@@ -27,8 +28,15 @@ function Header() {
             <img src={youTubeIcon} alt="Profile" className="w-100 pl-8"></img>
           </a>
         </div>
+        <a href="https://" target="Blink" className="w-100">
+          <img src={ArrowDown} alt="vector" className="w-10 pt-40 animate-bounce"></img>
+        </a>
+        
       </div>
 
+      
+        
+      
     </div>
   );
 }
