@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="w-auto h-screen bg-gray-800">
       <div className="mb-4 h-full flex justify-center items-center flex-col">
-        <img src={profile} alt="Profile" className="rounded-full max-w-sm"></img>
+        <img src={profile} alt="Profile" className="rounded-full max-w-sm animate-none"></img>
         
         <img src={saiText} alt="Profile" className="-mb-8"></img>
 
@@ -19,13 +19,13 @@ function Header() {
         
         <div className="flex flex-row m">
           <a href="https://www.instagram.com/sai_rtk/" target="Blink" className="w-100">
-            <img src={facebookIcon} alt="Profile" className="w-100"></img>
+            <img src={facebookIcon} alt="Profile" className="w-100 animate-pulse"></img>
           </a>
           <a href="https://www.instagram.com/sai_rtk/" target="Blink" className="w-100">
-            <img src={instagramIcon} alt="Profile" className="w-100 pl-8"></img>
+            <img src={instagramIcon} alt="Profile" className="w-100 pl-8 animate-pulse"></img>
           </a>
           <a href="https://www.youtube.com/channel/UCO--z4PEZNgkXQLveHMQgeg" target="Blink" className="w-100">
-            <img src={youTubeIcon} alt="Profile" className="w-100 pl-8"></img>
+            <img src={youTubeIcon} alt="Profile" className="w-100 pl-8 animate-pulse"></img>
           </a>
         </div>
         <a href="https://" target="Blink" className="w-100">
