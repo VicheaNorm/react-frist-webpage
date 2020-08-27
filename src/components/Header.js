@@ -28,7 +28,7 @@ function Header() {
             <img src={youTubeIcon} alt="Profile" className="w-100 pl-8 animate-pulse"></img>
           </a>
         </div>
-        <a href="https://" target="Blink" className="w-100">
+        <a href="#card" className="w-100">
           <img src={ArrowDown} alt="vector" className="w-10 pt-40 animate-bounce"></img>
         </a>
         
